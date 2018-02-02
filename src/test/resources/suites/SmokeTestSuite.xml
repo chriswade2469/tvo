@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="SmokeTestSuite" verbose="1">
+    
+    <test name="SignUpPage - ChromeSmokeTest">
+        <parameter name="browser" value="chrome" />
+        <classes>
+            <class name="tests.SignUpPageTest">
+                <methods>
+                    <include name="testCreateAccount" />
+                    <include name="testCancelButton" />
+                    <include name="verifySelectSchoolDropdownIsDisplayedAfterSelectingBoard" />
+                    <include name="verifyClickHereLinkIsDisplayedAfterSelectingBoard" />
+                    <include name="testClickHereLink" />
+                    <include name="verifyClickHereLinkDisablesSelectSchoolDropdown" />
+                    <include name="testCancelLink" />
+                    <include name="verifyOtherSourceTextBoxIsEnabledAfterSelectingSourceOther" />
+                    <include name="testTermsOfServiceLink" />
+                    <include name="testPrivacyPolicyLink" />
+                    <include name="verifyFirstNameInvalidCharactersErrorMessage" />
+                    <include name="verifyPasswordLengthErrorMessage" />
+                </methods>
+            </class>    
+        </classes>
+    </test>
+    
+    <test name="SignUpPage - FirefoxSmokeTest">
+        <parameter name="browser" value="firefox" />
+        <classes>
+            <class name="tests.SignUpPageTest">
+                <methods>
+                    <include name="testCancelButton" />
+                    <include name="verifySelectSchoolDropdownIsDisplayedAfterSelectingBoard" />
+                    <include name="verifyClickHereLinkIsDisplayedAfterSelectingBoard" />
+                    <include name="testClickHereLink" />
+                    <include name="verifyClickHereLinkDisablesSelectSchoolDropdown" />
+                    <include name="testCancelLink" />
+                    <include name="verifyOtherSourceTextBoxIsEnabledAfterSelectingSourceOther" />
+                    <include name="testTermsOfServiceLink" />
+                    <include name="testPrivacyPolicyLink" />
+                    <include name="verifyFirstNameInvalidCharactersErrorMessage" />
+                    <include name="verifyPasswordLengthErrorMessage" />
+                </methods>
+            </class>    
+        </classes>
+    </test>
+    
+    <test name="SignUpPage - IESmokeTest">
+        <parameter name="browser" value="ie" />
+        <classes>
+            <class name="tests.SignUpPageTest">
+                <methods>
+                    <include name="testCancelButton" />
+                    <include name="verifySelectSchoolDropdownIsDisplayedAfterSelectingBoard" />
+                    <include name="verifyClickHereLinkIsDisplayedAfterSelectingBoard" />
+                    <include name="testClickHereLink" />
+                    <include name="verifyClickHereLinkDisablesSelectSchoolDropdown" />
+                    <include name="testCancelLink" />
+                    <include name="verifyOtherSourceTextBoxIsEnabledAfterSelectingSourceOther" />
+                    <include name="testTermsOfServiceLink" />
+                    <include name="testPrivacyPolicyLink" />
+                    <include name="verifyFirstNameInvalidCharactersErrorMessage" />
+                    <include name="verifyPasswordLengthErrorMessage" />
+                </methods>
+            </class>    
+        </classes>
+    </test>
+    
+</suite>

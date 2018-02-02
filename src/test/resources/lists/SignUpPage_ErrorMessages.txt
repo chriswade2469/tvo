@@ -1,0 +1,17 @@
+Please enter your first name
+The first name may only contain alphanumeric characters and single spaces.
+The first name specified is of an invalid length
+Please enter your last name
+The last name may only contain alphanumeric characters and single spaces.
+The last name specified is of an invalid length
+Please select a role
+Please select a school board
+Please add your school
+Please enter a valid email address
+Please make sure your email matches
+Your password must be 8-32 characters long
+Your passwords do not match
+Please tell us where you heard about mPower
+Please tell us where you heard about mPower
+You must check agree to continue
+The email you want to use does not match the email of your school board.
