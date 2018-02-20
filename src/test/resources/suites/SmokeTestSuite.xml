@@ -18,6 +18,7 @@
                     <include name="verifyOtherSourceTextBoxIsEnabledAfterSelectingSourceOther" />
                     <include name="testTermsOfServiceLink" />
                     <include name="testPrivacyPolicyLink" />
+                    <include name="verifyFirstNameInvalidCharactersErrorMessageIsDisplayed" />
                     <include name="verifyFirstNameInvalidCharactersErrorMessage" />
                     <include name="verifyPasswordLengthErrorMessage" />
                 </methods>
@@ -39,6 +40,7 @@
                     <include name="verifyOtherSourceTextBoxIsEnabledAfterSelectingSourceOther" />
                     <include name="testTermsOfServiceLink" />
                     <include name="testPrivacyPolicyLink" />
+                    <include name="verifyFirstNameInvalidCharactersErrorMessageIsDisplayed" />
                     <include name="verifyFirstNameInvalidCharactersErrorMessage" />
                     <include name="verifyPasswordLengthErrorMessage" />
                 </methods>
@@ -60,6 +62,7 @@
                     <include name="verifyOtherSourceTextBoxIsEnabledAfterSelectingSourceOther" />
                     <include name="testTermsOfServiceLink" />
                     <include name="testPrivacyPolicyLink" />
+                    <include name="verifyFirstNameInvalidCharactersErrorMessageIsDisplayed" />
                     <include name="verifyFirstNameInvalidCharactersErrorMessage" />
                     <include name="verifyPasswordLengthErrorMessage" />
                 </methods>
