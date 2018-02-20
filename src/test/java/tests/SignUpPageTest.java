@@ -147,6 +147,23 @@ public class SignUpPageTest extends BaseTest {
     }
 
     @Test
+    public void verifyFirstNameInvalidCharactersErrorMessageIsDisplayed() {
+
+        signUpPage = open();
+        signUpPage = signUpPage.enterFirstName("Automation!@#$%").enterLastName("Developer")
+                .selectRole("Instructional Leader")
+                .selectBoard("Durham DSB").selectSchool("Winchester")
+                .enterEmail("test@ddsb.ca").enterConfirmEmail("test@ddsb.ca")
+                .enterPassword("qwertyui").enterConfirmPassword("qwertyui")
+                .selectSource("Other").enterOtherSource("Other Source")
+                .selectAgreementCheckbox()
+                .registerExpectingError();
+
+        assertTrue(signUpPage.firstNameInvalidCharactersErrorMsgIsDisplayed());
+
+    }
+
+    @Test
     public void verifyFirstNameInvalidCharactersErrorMessage() {
 
         signUpPage = open();
