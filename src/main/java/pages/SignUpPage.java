@@ -245,6 +245,11 @@ public class SignUpPage extends BasePage {
         return elementIsEnabled(otherSourceTextBox);
     }
 
+    public boolean firstNameInvalidCharactersErrorMsgIsDisplayed() {
+        scrollIntoView(firstNameInvalidCharactersErrorMsg);
+        return elementIsDisplayed(firstNameInvalidCharactersErrorMsg);
+    }
+
     public String getFirstNameInvalidCharactersErrorMsg() {
         scrollIntoView(firstNameInvalidCharactersErrorMsg);
         return getElementInnerText(firstNameInvalidCharactersErrorMsg);
